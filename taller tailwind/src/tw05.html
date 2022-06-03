@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../dist/output.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container m-5 mx-auto">
+    <h1 class="text-3xl">Diseño responsivo</h1>
+    <p>Cada clase de utilidad en Tailwind se puede aplicar condicionalmente en diferentes puntos de interrupción, lo que
+        hace que sea pan comido construir interfaces receptivas complejas sin salir de su HTML</p>
+
+    <h1>Tamaño original</h1>
+    <img src="images/photo-1637734433731-621aca1c8cb6.avif">
+
+    <h1>Responsiva</h1>
+    <img class="w-16 md:w-32 lg:w-48" src="images/photo-1637734433731-621aca1c8cb6.avif">
+
+    <div class="max-w-md mx-auto bg-white rounded-lg shadow-xl overflow-hidden sm:max-w-2xl ring-1 ring-slate-900/5">
+        <div class="flex flex-col sm:flex-row">
+            <div class="sm:shrink-0"><img
+                    class="w-full sm:w-[193px] h-[200px] object-cover object-bottom sm:object-center"
+                    src="https://images.unsplash.com/photo-1637734433731-621aca1c8cb6?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=404&amp;q=80"
+                    alt="Beautiful abstract building in the sun" width="202" height="192"></div>
+            <div class="p-6 2xl:p-8 space-y-2">
+                <div class="font-medium text-sm leading-6 text-indigo-600">Company retreats</div><a href="#"
+                    class="block font-semibold text-base text-slate-900 leading-6 hover:underline">Incredible
+                    accomodation for your team</a>
+                <p class="text-sm text-slate-600 leading-6">Looking to take your team away on a retreat to enjoy awesome
+                    food and take in some sunshine? We have a list of places to do just that.
+                    <!-- -->
+                </p>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>

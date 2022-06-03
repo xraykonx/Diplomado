@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400&display=swap');
+
+.botones{
+    background-color: aqua;
+} 
+
+.titulo{
+    @apply text-3xl;
+}
+
+h1{
+    font-family: 'Titillium Web', sans-serif;
+    @apply text-4xl py-3;
+}
+
+h3{
+    font-family: 'Titillium Web', sans-serif;
+    @apply text-xl py-3;
+}
+
+
+.table-color-fila{
+    @apply px-6 py-4 whitespace-nowrap text-sm text-slate-600;
+} 
